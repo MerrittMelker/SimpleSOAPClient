@@ -1,0 +1,22 @@
+﻿{
+  "version": "1.0.0-*",
+  "testRunner": "xunit",
+
+  "dependencies": {
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "Microsoft.EntityFrameworkCore.InMemory": "1.0.1",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
+    "Moq": "4.6.38-alpha",
+    "SimpleSOAPClient": "2.0.0-rc03",
+    "xunit": "2.2.0-beta2-build3300"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}
